@@ -1,0 +1,97 @@
+@media all {
+  body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-bar {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+  }
+
+  .logo-button {
+    background: none;
+    border: none;
+    margin-top: 0.8vw;
+    margin-left: 10vw;
+  }
+
+  .logo {
+    max-height: 100px;
+    width: auto;
+  }
+
+  .logo-button:hover {
+    cursor: pointer;
+  }
+
+  .about-button {
+    background: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 100%;
+    margin-left: 25%;
+    transition: 0.5s;
+  }
+
+  .about-button:hover {
+    color: rgb(18, 213, 213);
+    cursor: pointer;
+  }
+
+  .skills-button {
+    background: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    transition: 0.5s;
+  }
+
+  .skills-button:hover {
+    color: rgb(18, 213, 213);
+    cursor: pointer;
+  }
+
+  .main-content {
+    padding-top: 5em;
+    padding-bottom: 33em;
+    padding-left: 1em;
+    background-color: rgb(3, 4, 81);
+  }
+
+  .main-content > h1 {
+    color: white;
+    font-size: 1em;
+    height: auto;
+    width: 15em;
+  }
+
+  .linkedin-logo {
+    height: 2.6em;
+    width: auto;
+  }
+
+  .bottom-bar {
+    justify-content: center;
+    background-color: rgb(15, 159, 198);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+  }
+
+  .contact-info {
+    color: white;
+  }
+
+  .email {
+    color: white;
+  }
+
+  .phone-no {
+    color: white;
+  }
+}
+
